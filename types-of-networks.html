@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Types of Networks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+            padding: 0 16px;
+        }
+        
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Types of Networks</h2>
+    <p>A computer network is a group of computers linked to each other that enables the computer to communicate with another computer and share their resources, data, and applications.</p>
+    <br>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="https://static.javatpoint.com/tutorial/computer-network/images/local-area-network.png" style="width:100%">
+                <div class="container">
+                    <h2>LAN (Local Area Network)</h2>
+                    <p>Local Area Network is a group of computers connected to each other in a small area such as building, office.</p>
+                    <p>The data is transferred at an extremely faster rate in Local Area Network.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://static.javatpoint.com/tutorial/computer-network/images/wide-area-network.png" style="width:100%">
+                <div class="container">
+                    <h2>WAN (Wide Area Network)</h2>
+                    <p>A Wide Area Network is a network that extends over a large geographical area such as states or countries.</p>
+                    <p>A Wide Area Network is quite bigger network than the LAN.</p>
+                    <p>A Wide Area Network is not limited to a single location, but it spans over a large geographical area through a telephone line, fibre optic cable or satellite links.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://static.javatpoint.com/tutorial/computer-network/images/metropolitan-area-network.png" style="width:100%">
+                <div class="container">
+                    <h2>MAN (Metropolitan Area Network)</h2>
+                    <p>A metropolitan area network is a network that covers a larger geographic area by interconnecting a different LAN to form a larger network.</p>
+                    <p>Government agencies use MAN to connect to the citizens and private industries.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
